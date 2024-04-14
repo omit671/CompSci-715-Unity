@@ -1,4 +1,6 @@
 # Redirected Walking in Impossible Spaces (CompSci 715)
+
+![alt text](https://github.com/Flame1190/CompSci-715-Unity/blob/main/teaser-image5.png?raw=true)
  
 This contains the Unity project for CompSci 715 of Group 5 in 2023. It also contains all the data collected from user studies, the images used in memory tests and "pdf" versions of the questionnaires (prestudy and poststudy).
 
