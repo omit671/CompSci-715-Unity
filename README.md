@@ -1,4 +1,4 @@
-# CompSci 715
+# Redirected Walking in Impossible Spaces (CompSci 715)
  
 This contains the Unity project for CompSci 715 of Group 5 in 2023. It also contains all the data collected from user studies, the images used in memory tests and "pdf" versions of the questionnaires (prestudy and poststudy).
 
