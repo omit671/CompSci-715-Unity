@@ -38,3 +38,13 @@ sawing room
 saw https://sketchfab.com/3d-models/low-poly-saw-e468f442be38467f987bfb4ea6da33b8
 log https://sketchfab.com/3d-models/wooden-log-0c4fff74a42942d7b94efe7ee19a299e
 axe https://sketchfab.com/3d-models/axe-slavic-acb2097ba04842fabd8230ec0c8b1cb1
+
+chalk room
+chalk board https://sketchfab.com/3d-models/chalkboard-7ca01a2834384d1a9205e2919a7acb30
+font https://www.textstudio.com/logo/chalk-drawing-on-blackboard-162
+
+cauldron room
+cauldron https://sketchfab.com/3d-models/evil-cauldron-e6eb5febb0ef4b63b3a90206a8b96135
+broomstick https://sketchfab.com/3d-models/broom-stick-e7f0a34a36f14c9292557673da4375fe
+hat https://sketchfab.com/3d-models/witchs-hat-eed46e56a6234eb18d5603f8e399cf2d
+
