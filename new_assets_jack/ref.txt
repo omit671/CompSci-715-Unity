@@ -26,3 +26,10 @@ lion room
 https://sketchfab.com/3d-models/lion-96b2b3cb5aa0454fa59c120dd9deecb0
 
 spring room (none)
+
+dog room
+dog https://sketchfab.com/3d-models/doggy-meme-dog-ps1-8f9361ab396e4c21a53bc50a57a740cd
+rug https://sketchfab.com/3d-models/rug-with-bottom-43b311e5a2714126bf0134e8555d40cc
+bowl https://sketchfab.com/3d-models/pet-bowl-0cac0e33988f41dc9afbc4cef88733a6
+tennis ball https://sketchfab.com/3d-models/tennis-ball-b4daecf1967a482082dc258cea75b050
+bone https://sketchfab.com/3d-models/pet-bowl-and-bone-4cf270c1ed224de182c4adc86eb67c67
