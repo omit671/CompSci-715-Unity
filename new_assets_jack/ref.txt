@@ -33,3 +33,8 @@ rug https://sketchfab.com/3d-models/rug-with-bottom-43b311e5a2714126bf0134e8555d
 bowl https://sketchfab.com/3d-models/pet-bowl-0cac0e33988f41dc9afbc4cef88733a6
 tennis ball https://sketchfab.com/3d-models/tennis-ball-b4daecf1967a482082dc258cea75b050
 bone https://sketchfab.com/3d-models/pet-bowl-and-bone-4cf270c1ed224de182c4adc86eb67c67
+
+sawing room
+saw https://sketchfab.com/3d-models/low-poly-saw-e468f442be38467f987bfb4ea6da33b8
+log https://sketchfab.com/3d-models/wooden-log-0c4fff74a42942d7b94efe7ee19a299e
+axe https://sketchfab.com/3d-models/axe-slavic-acb2097ba04842fabd8230ec0c8b1cb1
