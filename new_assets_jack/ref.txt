@@ -1,0 +1,50 @@
+sausage room
+sausage https://sketchfab.com/3d-models/low-poly-sausage-96b53d18fae64d428cc8a4098be30700
+iron skillet https://sketchfab.com/3d-models/skillet-steel-83d6defd33734f2da2d81ddc036aa8df
+egg https://sketchfab.com/3d-models/fried-egg-breakfast-model-c2e9b58c63bd442ba1a5c1d7e314b3ee
+stove https://sketchfab.com/3d-models/stylized-kitchen-stove-ce926d5532834f1c810d09869e898645
+
+radio room
+radio https://sketchfab.com/3d-models/boombox-fcf2d5f0e32b4c04a5fe8d2677633f01
+radio2 https://sketchfab.com/3d-models/1980s-boombox-f19736661f354cada1b18c8a358f9703
+table https://sketchfab.com/3d-models/simple-office-table-b044f25f823c4d54ab32bdf16a205456
+plants https://sketchfab.com/3d-models/house-plants-8fb7ffc55ffa476d9bc6e8772a503ba6
+
+basketball room
+texture for floor https://commons.wikimedia.org/wiki/File:Basketball_court_as_of_2012.png
+hoop https://sketchfab.com/3d-models/basketball-hoop-82fda2cfa8974171ae64d4e434aa4b9b
+basketball https://sketchfab.com/3d-models/basketball-2343abdae7674f46ad85071858db93c6
+
+baby room
+animated baby https://sketchfab.com/3d-models/asian-babymotions-c77dbcc05e754c57b53e6af67b149a24
+cotbed https://sketchfab.com/3d-models/cotbed-29451febdc894682a36a5112fd13f054
+teddy bears https://sketchfab.com/3d-models/teddy-bears-e84b12b4ac20402aaf4d40f2219cd0e2
+blocks https://sketchfab.com/3d-models/abc-cube-toy-9443ba8835cf41fc8f89249aabf2e38b
+stacking toy https://sketchfab.com/3d-models/baby-stacking-toy-1baa4c07e1e64798bbe7925cbbdd6a74
+
+lion room
+https://sketchfab.com/3d-models/lion-96b2b3cb5aa0454fa59c120dd9deecb0
+
+spring room (none)
+
+dog room
+dog https://sketchfab.com/3d-models/doggy-meme-dog-ps1-8f9361ab396e4c21a53bc50a57a740cd
+rug https://sketchfab.com/3d-models/rug-with-bottom-43b311e5a2714126bf0134e8555d40cc
+bowl https://sketchfab.com/3d-models/pet-bowl-0cac0e33988f41dc9afbc4cef88733a6
+tennis ball https://sketchfab.com/3d-models/tennis-ball-b4daecf1967a482082dc258cea75b050
+bone https://sketchfab.com/3d-models/pet-bowl-and-bone-4cf270c1ed224de182c4adc86eb67c67
+
+sawing room
+saw https://sketchfab.com/3d-models/low-poly-saw-e468f442be38467f987bfb4ea6da33b8
+log https://sketchfab.com/3d-models/wooden-log-0c4fff74a42942d7b94efe7ee19a299e
+axe https://sketchfab.com/3d-models/axe-slavic-acb2097ba04842fabd8230ec0c8b1cb1
+
+chalk room
+chalk board https://sketchfab.com/3d-models/chalkboard-7ca01a2834384d1a9205e2919a7acb30
+font https://www.textstudio.com/logo/chalk-drawing-on-blackboard-162
+
+cauldron room
+cauldron https://sketchfab.com/3d-models/evil-cauldron-e6eb5febb0ef4b63b3a90206a8b96135
+broomstick https://sketchfab.com/3d-models/broom-stick-e7f0a34a36f14c9292557673da4375fe
+hat https://sketchfab.com/3d-models/witchs-hat-eed46e56a6234eb18d5603f8e399cf2d
+
