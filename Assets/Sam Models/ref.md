@@ -20,3 +20,7 @@
 # Waiting room
 - [(extremely low-poly) Chair](https://sketchfab.com/3d-models/654230005-chair-model-f2e80e4e623a4492884941b91ebb0d73)
 - [Clock](https://sketchfab.com/3d-models/clock-cd0e6a816e6942b587846dd1e866d59e)
+
+# Typewriter
+- [Typewriter](https://sketchfab.com/3d-models/typewriter-87e5855ddaa04e2d8c1b600775652eb1)
+- [Table](https://sketchfab.com/3d-models/simple-office-table-b044f25f823c4d54ab32bdf16a205456)
