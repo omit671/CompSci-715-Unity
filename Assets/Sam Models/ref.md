@@ -13,3 +13,10 @@
   
 # Arcade
 - [Arcade Machine](https://sketchfab.com/3d-models/low-poly-arcade-game-c306f457f59b49f38aca9bd64c42b871)
+
+# Drum kit
+- [Drum kit](https://sketchfab.com/3d-models/standard-drum-set-8d02d9cb0e0441ab96d799c8ca7eff50)
+
+# Waiting room
+- [(extremely low-poly) Chair](https://sketchfab.com/3d-models/654230005-chair-model-f2e80e4e623a4492884941b91ebb0d73)
+- [Clock](https://sketchfab.com/3d-models/clock-cd0e6a816e6942b587846dd1e866d59e)
