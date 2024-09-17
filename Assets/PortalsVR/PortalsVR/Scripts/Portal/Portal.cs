@@ -43,6 +43,11 @@ namespace PortalsVR
         }
 
         public bool IsActive { get; set; } = true;
+
+        public Portal GetLinkedPortal()
+        {
+            return linkedPortal;
+        }
         #endregion
 
         #region Methods
