@@ -2088,7 +2088,7 @@ PrefabInstance:
     - target: {fileID: 4941865013484526300, guid: 0cac70f1a3bddc84eab8c255f75f02d2,
         type: 3}
       propertyPath: m_Name
-      value: Outside Rain Room (-3, 3)
+      value: Blizzard Room (-3, 3)
       objectReference: {fileID: 0}
     - target: {fileID: 4941865013484526300, guid: 0cac70f1a3bddc84eab8c255f75f02d2,
         type: 3}
