@@ -10,12 +10,14 @@
 # Reception
 - [Reception desk](https://sketchfab.com/3d-models/reception-desk-5baec59bca794aca8439afbac162aa96)
 - [Bell](https://sketchfab.com/3d-models/bell-3d-model-879e0ac8b54b4748977eb322c4e3fcdc)
+- [Phone](https://sketchfab.com/3d-models/low-poly-red-rotary-phone-e6e74f41aa7c42a492cc94e3e35609c6)
   
 # Arcade
 - [Arcade Machine](https://sketchfab.com/3d-models/low-poly-arcade-game-c306f457f59b49f38aca9bd64c42b871)
 
 # Drum kit
 - [Drum kit](https://sketchfab.com/3d-models/standard-drum-set-8d02d9cb0e0441ab96d799c8ca7eff50)
+- [Rug](https://sketchfab.com/3d-models/yellow-and-red-rug-976a855657974c81b3f3991ddeb8435f)
 
 # Waiting room
 - [(extremely low-poly) Chair](https://sketchfab.com/3d-models/654230005-chair-model-f2e80e4e623a4492884941b91ebb0d73)
@@ -24,3 +26,9 @@
 # Typewriter
 - [Typewriter](https://sketchfab.com/3d-models/typewriter-87e5855ddaa04e2d8c1b600775652eb1)
 - [Table](https://sketchfab.com/3d-models/simple-office-table-b044f25f823c4d54ab32bdf16a205456)
+
+# Frogs
+- Whatever was originally used in the pond room
+
+# Race Car
+- [Race Car](https://sketchfab.com/3d-models/low-poly-classic-race-car-bugatti-type-35-dbb8733f78934d85ba33fa1f56d82391)
