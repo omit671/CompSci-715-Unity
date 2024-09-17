@@ -6,10 +6,12 @@ public class Rain : MonoBehaviour
 {
 
     public GameObject rainDrop;
-    public Vector3 spawnArea = new Vector3(10, 10, 10);
+    public Vector3 spawnArea = new Vector3(10, 10, 20);
     public float spawnRate = 0.1f;
-    public float gravity = 9.8f;
+    public float velocity = 9.8f;
     public float lifetime = 1.0f;
+
+    public float spawnAmount = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -25,19 +27,20 @@ public class Rain : MonoBehaviour
     }
 
     private void SpawnRainDrop() {
-        Vector3 spawnPosition = new Vector3(Random.Range(-spawnArea.x/2, spawnArea.x/2), spawnArea.y, Random.Range(-spawnArea.z/2, spawnArea.z/2));
-        GameObject drop = Instantiate(rainDrop, transform.position + spawnPosition, Quaternion.identity);
-        StartCoroutine(Drop(drop));
+        
+        for(int i = 0; i < spawnAmount; ++i) {
+            Vector3 spawnPosition = new Vector3(Random.Range(-spawnArea.x/2, spawnArea.x/2), spawnArea.y, Random.Range(-spawnArea.z/2, spawnArea.z/2));
+            GameObject drop = Instantiate(rainDrop, transform.position + spawnPosition, Quaternion.identity);
+            StartCoroutine(Drop(drop));
+        }
+
     }
 
     private IEnumerator Drop(GameObject drop) {
-        Rigidbody rb = drop.AddComponent<Rigidbody>();
-        rb.useGravity = false;
-        rb.velocity = new Vector3(0, -gravity, 0);
 
         float time = 0;
         while (time < lifetime) {
-            rb.velocity = new Vector3(0, -gravity, 0);
+            drop.transform.position += new Vector3(0, -velocity, velocity/2) * Time.deltaTime;
             time += Time.deltaTime;
             yield return null;
         }
