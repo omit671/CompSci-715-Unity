@@ -48,3 +48,10 @@ cauldron https://sketchfab.com/3d-models/evil-cauldron-e6eb5febb0ef4b63b3a90206a
 broomstick https://sketchfab.com/3d-models/broom-stick-e7f0a34a36f14c9292557673da4375fe
 hat https://sketchfab.com/3d-models/witchs-hat-eed46e56a6234eb18d5603f8e399cf2d
 
+bird room
+bird https://sketchfab.com/3d-models/papercraft-birds-d76fd20c3279499cac6a5db483f4feeb
+
+Cave room
+Pickaxe https://sketchfab.com/3d-models/stylized-pickaxe-3c1bd2de915941118890332de06d5df2
+Minecart https://sketchfab.com/3d-models/minecarts-gameready-12941b76617a4c45ad27ce3ebdb032cd
+Rocks https://sketchfab.com/3d-models/low-poly-rock-set-48f8612d1db1429d976f8d4f08ed0f0c
