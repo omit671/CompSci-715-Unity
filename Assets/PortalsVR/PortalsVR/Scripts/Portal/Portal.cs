@@ -1,6 +1,7 @@
 ﻿using RotaryHeart.Lib.SerializableDictionary;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -50,6 +51,77 @@ namespace PortalsVR
         }
         #endregion
 
+        #region Custom Methods and Properties
+        // The following are added for the CS715 Project.
+        public AudioRoom parentRoom;
+
+        public Vector3 GetClosestPoint(Vector3 position)
+        {
+            return GetComponentInChildren<Collider>().ClosestPointOnBounds(position);
+        }
+
+        List<Portal> GetNeighbours()
+        {
+            // Find all "neighbour" portals, i.e. portals that are linked to this portal
+            // or ones that are in the same room as this portal.
+
+            List<Portal> neighbours = parentRoom.portals.ToList();
+            neighbours.RemoveAll(portal => portal == this);
+
+            if (linkedPortal != null)
+            {
+                neighbours.Add(linkedPortal);
+            }
+
+            return neighbours;
+        }
+
+        public List<(Portal, Portal)> FindShortestPathTo(Portal destination)
+        {
+            // Find the shortest path from this portal to the destination portal.
+            // The metric is distance between portal centres,
+            // or 0 if the destination is the linked portal.
+            // Do not use the same room or portal twice in the path.
+
+            List<(Portal, Portal)> path = new();
+            List<Portal> visited = new();
+            Queue<List<(Portal, Portal)>> queue = new();
+
+            // Add other portals in the same room to the visited list
+            foreach (Portal portal in parentRoom.portals)
+            {
+                if (portal != this) { visited.Add(portal); }
+            }
+
+            queue.Enqueue(new List<(Portal, Portal)> { (this, GetLinkedPortal() ) });
+
+            while (queue.Count > 0)
+            {
+                List<(Portal from, Portal to)> currentPath = queue.Dequeue();
+                (Portal from, Portal to) = currentPath.Last();
+
+                if (to == destination)
+                {
+                    path = currentPath;
+                    break;
+                }
+
+                visited.Add(from);
+                visited.Add(to);
+
+                foreach (Portal neighbour in to.GetNeighbours())
+                {
+                    if (visited.Contains(neighbour)) { continue; }
+
+                    List<(Portal, Portal)> newPath = new(currentPath) { (neighbour, neighbour.GetLinkedPortal()) };
+                    queue.Enqueue(newPath);
+                }
+            }
+
+            return path;
+        }
+        #endregion
+
         #region Methods
         private void Awake()
         {
@@ -65,8 +137,6 @@ namespace PortalsVR
                 linkedPortal.portalInfo[eye].screen.material.SetTexture("_MainTex", portalInfo[eye].viewTexture);
                 //linkedPortal.portalInfo[eye].screen.material.SetTextureScale("_MainTex", new Vector2(-1, -1000));
             }
-
-            
         }
       
         private void LateUpdate()
