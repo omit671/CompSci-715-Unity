@@ -19,6 +19,11 @@ namespace PortalsVR
         public virtual void Teleport(Transform fromPortal, Transform toPortal, Vector3 pos, Quaternion rot)
         {
             transform.position += pos - target.position;
+
+            UserNavigator navigator = UserNavigator.Instance;
+            if(navigator != null)
+                navigator.ExitPortal(toPortal.GetComponent<Portal>());
+
             Physics.SyncTransforms();
         }
         #endregion
