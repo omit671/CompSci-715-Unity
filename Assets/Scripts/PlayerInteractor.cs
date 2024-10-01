@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerInteractor : MonoBehaviour
 {
     [SerializeField] private GameObject stopRecording;
-    [SerializeField] private GameObject startTasks;
     [SerializeField] private GameObject firstTask;
     [SerializeField] private GameObject secondTask;
     [SerializeField] private GameObject thirdTask;
@@ -16,7 +15,6 @@ public class PlayerInteractor : MonoBehaviour
         {
             Recorder.Main.StartRecording();
             GameObject.FindGameObjectWithTag("StartRecording").SetActive(false);
-            startTasks.SetActive(true);
         }
         else if (other.gameObject.tag == "StartTask")
         {

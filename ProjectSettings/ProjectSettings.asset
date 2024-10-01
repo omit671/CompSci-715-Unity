@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: UoA
-  productName: CompSci-715-Group4-Museum2-Audio
+  productName: CompSci-715-Group4-Museum1-Audio
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -144,9 +144,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: 490944cb7b83d2c4bbffacf03567da2b, type: 2}
-  - {fileID: 11400000, guid: 29c36a8debb3da84c943ba5169feefe3, type: 2}
-  - {fileID: 4478530223162188073, guid: a605bae783c2ac643a83074c9920523a, type: 2}
-  - {fileID: 6719319773948864870, guid: 41d5b76d34b9ee14d8fd3d61b6acc8d0, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -167,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.UoA.CompSci715Group4Museum2Audio
+    Android: com.UoA.CompSci715Group4Museum1Audio
   buildNumber:
     Bratwurst: 0
     Standalone: 0

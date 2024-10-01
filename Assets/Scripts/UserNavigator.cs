@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class UserNavigator : MonoBehaviour
 {
-
+    [SerializeField] private GameObject startTasks;
     private static UserNavigator _instance;
     public static UserNavigator Instance
     {
@@ -47,6 +47,11 @@ public class UserNavigator : MonoBehaviour
         } else {
             // Move the navigator off-screen.
             transform.position = new Vector3(0, -1000, 0);
+        }
+
+        if(portalStack.Count == 2)
+        {
+            startTasks.SetActive(true);
         }
     }
 
