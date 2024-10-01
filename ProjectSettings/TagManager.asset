@@ -7,6 +7,10 @@ TagManager:
   - StartRecording
   - StopRecording
   - RainDrop
+  - FirstTask
+  - SecondTask
+  - ThirdTask
+  - StartTask
   layers:
   - Default
   - TransparentFX

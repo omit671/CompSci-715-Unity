@@ -99,6 +99,14 @@ public class Recorder : MonoBehaviour
         }
     }
 
+    public void PlaySuccessAudio()
+    {
+        if (_recording)
+        {
+            _audioSource.Play();
+        }
+    }
+
     public void StopRecording()
     {
         if (_recording)

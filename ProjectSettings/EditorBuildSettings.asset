@@ -32,6 +32,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Museum 2.unity
     guid: 8b732c4082220fd42b60f7c4f19ffb01
+  - enabled: 0
+    path: Assets/_Scenes/Museum 1 - No Audio.unity
+    guid: c136809df1dd1fe47ac4812b3b3fc424
+  - enabled: 0
+    path: Assets/_Scenes/Museum 2 - No Audio.unity
+    guid: 2a65865d56d1c5741b044bdc5fe00522
+  - enabled: 0
+    path: Assets/_Scenes/Museum 1 - NewAudio.unity
+    guid: d45460e44c425be47b284825e26c324f
+  - enabled: 0
+    path: Assets/_Scenes/Museum 2 - New Audio.unity
+    guid: 8104317c5a3b74a41aa20c3699d24c0a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 00f9a5b66f528f74dba38c204c6bb0c3,
       type: 2}
