@@ -53,4 +53,19 @@ public class Rain : MonoBehaviour
     {
         
     }
+
+    private void OnEnable()
+    {
+        StartCoroutine(SpawnRain());
+    }
+
+    private void OnDisable()
+    {
+        StopCoroutine(SpawnRain());
+        GameObject[] allDrops = GameObject.FindGameObjectsWithTag("RainDrop");
+        foreach (GameObject drop in allDrops)
+        {
+            Destroy(drop);
+        }
+    }
 }

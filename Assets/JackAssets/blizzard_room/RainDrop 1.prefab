@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3846634428088109621}
   - component: {fileID: 7875170478559700763}
   m_Layer: 20
-  m_Name: RainDrop
+  m_Name: RainDrop 1
   m_TagString: RainDrop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b83da56acbc484f32bf470b482483a53, type: 2}
+  - {fileID: 2100000, guid: 03085dc6ec025b646a5b7699be0ac896, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

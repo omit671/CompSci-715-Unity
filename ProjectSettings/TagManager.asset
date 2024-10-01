@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StartRecording
   - StopRecording
+  - RainDrop
   layers:
   - Default
   - TransparentFX
