@@ -3,6 +3,12 @@ import math
 roomPaddingX = 10
 roomPaddingZ = 10
 
+# We conclude the tour at the first instance of (0, 0) after this value
+tourOffset = 12
+
+# if the user is not in the room for this period of time, we consider them to not have visited the room
+minTimeInRoom = 1
+
 museum_rooms = [
     {
         (0, 0): "Entrance",
@@ -54,6 +60,7 @@ def get_rooms_per_task(file, museum):
         print(e)
 
     lastRoom = (0, 0)
+    lastTime = 0
     roomsVisited = [lastRoom]
 
     # Convert the raw data into a list of rooms visited
@@ -66,15 +73,16 @@ def get_rooms_per_task(file, museum):
         location = [float(values[i]) for i in [1,2,3]]
         room = (math.floor((location[0] + roomPaddingX)/300), math.floor((location[2] + roomPaddingZ)/600))
         
-        if(room != lastRoom):
+        if(room != lastRoom and (float(values[0]) - lastTime) > minTimeInRoom):
             roomsVisited.append(room)
             lastRoom = room
+            lastTime = float(values[0])
 
     # Used for debugging
     # print(roomsVisited)
 
     # Find the first instance of the required room entered after task commence
-    task_finished_after_visit = [find_first_task_after_index(museum, roomsVisited, 0, 12)]
+    task_finished_after_visit = [find_first_task_after_index(museum, roomsVisited, 0, tourOffset)]
     for i in range(1, len(museum_tasks[museum])):
         task_finished_after_visit.append(find_first_task_after_index(museum, roomsVisited, i, task_finished_after_visit[i-1]))
 
