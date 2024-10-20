@@ -1,0 +1,32 @@
+"What is your Research ID? (Ask one of the researchers if unsure)","What is your gender?","What is your age?","Approximately how many hours a week do you spend playing video games?","On a scale of 1 to 10, how do you perceive your current level of spatial abilities?","On a scale of 1 to 10, how energetic are you feeling today?","Have you taken any spatial tests before?","Have you used a Head Mounted Display before?","If you have used a Head Mounted Display before and you have suffered any form of motion sickness or discomfort when using it, please provide details.","Scenario","Complete"
+1,Female,20,"0-1 hr",7,5,No,Yes,N/A,1,Yes
+2,Male,22,"5+ hr",8,6,Yes,Yes,,2,Yes
+3,Male,24,"0-1 hr",8,8,Yes,Yes,None,3,Yes
+4,Male,22,"5+ hr",8,6,No,Yes,No,4,Yes
+5,Male,22,"2-5 hr",8,4,Yes,Yes,,1,Yes
+6,Male,24,"5+ hr",10,10,No,Yes,"Yes, feel dizzy sometime",2,Yes
+7,Female,33,"0-1 hr",7,10,No,Yes,"No",3,Yes
+9,Female,24,"0 hr",9,5,No,No,,1,Yes
+8,Male,30,"0-1 hr",8,6,No,No,,4,Yes
+10,Male,26,"1-2 hr",8,7,No,No,,2,Yes
+11,Male,25,"0 hr",5,7,No,No,,3,Yes
+12,Female,22,"1-2 hr",7,8,No,Yes,"No",2,Yes
+13,Male,43,"0-1 hr",9,5,Yes,Yes,,1,Yes
+14,Male,50,"0 hr",8,9,No,Yes,No,4,No
+17,Male,22,"0 hr",8,8,No,Yes,,3,Yes
+15,Female,21,"0 hr",7,1,No,Yes,,1,Yes
+16,Non-Binary,21,"2-5 hr",4,3,No,Yes,,2,Yes
+18,Male,24,"0 hr",10,10,Yes,Yes,"No",4,Yes
+19,Male,23,"2-5 hr",8,3,No,Yes,"yes, motion sickness",3,Yes
+20,Female,32,"0 hr",8,3,No,No,,4,Yes
+21,Male,32,"5+ hr",9,6,No,No,,1,Yes
+23,Female,20,"0 hr",8,7,No,No,,3,Yes
+22,Male,19,"5+ hr",7,3,No,No,,2,No
+24,Male,22,"5+ hr",8,2,No,Yes,"No",4,Yes
+25,Male,25,"2-5 hr",10,3,No,No,,1,Yes
+26,Female,20,"0 hr",6,4,No,No,,2,Yes
+27,Female,22,"1-2 hr",8,3,Yes,Yes,,3,Yes
+28,Male,21,"2-5 hr",3,6,No,No,,4,Yes
+29,Male,21,"0 hr",10,8,No,No,,1,Yes
+30,Female,22,"0 hr",7,6,No,Yes,,2,Yes
+31,Male,22,"5+ hr",8,2,No,Yes,"No",3,Yes
