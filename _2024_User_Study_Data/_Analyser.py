@@ -326,6 +326,16 @@ def main():
     conditions_by_experiment['No Propagation VS Propagation'] = ([(1, 'first_experiment'),(2, 'second_experiment'),(3, 'first_experiment'),(4, 'second_experiment')], [(1, 'second_experiment'),(2, 'first_experiment'),(3, 'second_experiment'),(4, 'first_experiment')])
     conditions_by_experiment['Museum 1 VS Museum 2'] = ([(1, 'first_experiment'),(2, 'first_experiment'),(3, 'second_experiment'),(4, 'second_experiment')], [(1, 'second_experiment'),(2, 'second_experiment'),(3, 'first_experiment'),(4, 'first_experiment')])
 
+    conditions_by_experiment['Propagation vs No Propagation in Museum 1'] = ([(1, 'first_experiment'),(4, 'second_experiment')], [(2, 'first_experiment'),(3, 'second_experiment')])
+    conditions_by_experiment['Propagation vs No Propagation in Museum 2'] = ([(1, 'second_experiment'),(4, 'first_experiment')], [(2, 'second_experiment'),(3, 'first_experiment')])
+
+    conditions_by_experiment['Propagation vs No Propagation in Museum 1 First'] = ([(1, 'first_experiment')], [(2, 'first_experiment')])
+    conditions_by_experiment['Propagation vs No Propagation in Museum 1 Second'] = ([(4, 'second_experiment')], [(3, 'second_experiment')])
+
+    conditions_by_experiment['Propagation vs No Propagation in Museum 2 First'] = ([(4, 'first_experiment')], [(3, 'first_experiment')])
+    conditions_by_experiment['Propagation vs No Propagation in Museum 2 Second'] = ([(1, 'second_experiment')], [(2, 'second_experiment')])
+
+
     for condition in conditions_by_experiment:
         print('######')
         print(condition)

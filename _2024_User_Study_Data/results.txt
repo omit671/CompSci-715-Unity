@@ -1,0 +1,1382 @@
+######
+Scenario 1 VS Scenario 3 (No Propagation First)
+#
+['pre_experiment', 'gender'] (Unordered):
+First Group = {'Female': 3, 'Male': 5}
+Second Group = {'Female': 3, 'Male': 5}
+Chi P-value = 1.0
+#
+['pre_experiment', 'age'] (Ordered):
+First Group Mean = 26.0
+Second Group Mean = 23.9
+T-test P-value = 0.506
+Wilcoxon P-value = 1.0
+#
+['pre_experiment', 'hours_playing'] (Unordered):
+First Group = {'0 hr': 3, '0-1 hr': 2, '2-5 hr': 2, '5+ hr': 1}
+Second Group = {'0 hr': 3, '0-1 hr': 2, '1-2 hr': 1, '2-5 hr': 1, '5+ hr': 1}
+Chi P-value = 0.8556951983876534
+#
+['pre_experiment', 'spatial_ability'] (Ordered):
+First Group Mean = 8.62
+Second Group Mean = 7.5
+T-test P-value = 0.066
+Wilcoxon P-value = 0.087
+#
+['pre_experiment', 'energetic'] (Ordered):
+First Group Mean = 4.62
+Second Group Mean = 6.0
+T-test P-value = 0.296
+Wilcoxon P-value = 0.367
+#
+['pre_experiment', 'spatial_test'] (Unordered):
+First Group = {'No': 6, 'Yes': 2}
+Second Group = {'No': 6, 'Yes': 2}
+Chi P-value = 1.0
+#
+['pre_experiment', 'hdm'] (Unordered):
+First Group = {'No': 4, 'Yes': 4}
+Second Group = {'No': 2, 'Yes': 6}
+Chi P-value = 0.6055766163353462
+#
+['post_experiment', 'motion_sickness'] (Unordered):
+First Group = {'No': 4, 'Yes': 4}
+Second Group = {'No': 6, 'Yes': 2}
+Chi P-value = 0.6055766163353462
+######
+Scenario 2 VS Scenario 4 (Propagation First)
+#
+['pre_experiment', 'gender'] (Unordered):
+First Group = {'Female': 3, 'Male': 3, 'Non-Binary': 1}
+Second Group = {'Female': 1, 'Male': 5}
+Chi P-value = 0.29559943537737077
+#
+['pre_experiment', 'age'] (Ordered):
+First Group Mean = 22.4
+Second Group Mean = 25.2
+T-test P-value = 0.184
+Wilcoxon P-value = 0.338
+#
+['pre_experiment', 'hours_playing'] (Unordered):
+First Group = {'0 hr': 2, '1-2 hr': 2, '2-5 hr': 1, '5+ hr': 2}
+Second Group = {'0 hr': 2, '0-1 hr': 1, '2-5 hr': 1, '5+ hr': 2}
+Chi P-value = 0.567835477554733
+#
+['pre_experiment', 'spatial_ability'] (Ordered):
+First Group Mean = 7.14
+Second Group Mean = 7.5
+T-test P-value = 0.765
+Wilcoxon P-value = 0.451
+#
+['pre_experiment', 'energetic'] (Ordered):
+First Group Mean = 6.29
+Second Group Mean = 5.5
+T-test P-value = 0.594
+Wilcoxon P-value = 0.507
+#
+['pre_experiment', 'spatial_test'] (Unordered):
+First Group = {'No': 6, 'Yes': 1}
+Second Group = {'No': 5, 'Yes': 1}
+Chi P-value = 1.0
+#
+['pre_experiment', 'hdm'] (Unordered):
+First Group = {'No': 2, 'Yes': 5}
+Second Group = {'No': 3, 'Yes': 3}
+Chi P-value = 0.8259364898221998
+#
+['post_experiment', 'motion_sickness'] (Unordered):
+First Group = {'No': 6, 'Yes': 1}
+Second Group = {'No': 6}
+Chi P-value = 1.0
+######
+Scenario 1,2 VS Scenario 3,4 (Museum 1 First VS Museum 2 First)
+#
+['pre_experiment', 'gender'] (Unordered):
+First Group = {'Female': 6, 'Male': 8, 'Non-Binary': 1}
+Second Group = {'Female': 4, 'Male': 10}
+Chi P-value = 0.45166486882084833
+#
+['pre_experiment', 'age'] (Ordered):
+First Group Mean = 24.3
+Second Group Mean = 24.4
+T-test P-value = 0.961
+Wilcoxon P-value = 0.505
+#
+['pre_experiment', 'hours_playing'] (Unordered):
+First Group = {'0 hr': 5, '0-1 hr': 2, '1-2 hr': 2, '2-5 hr': 3, '5+ hr': 3}
+Second Group = {'0 hr': 5, '0-1 hr': 3, '1-2 hr': 1, '2-5 hr': 2, '5+ hr': 3}
+Chi P-value = 0.9513680646874951
+#
+['pre_experiment', 'spatial_ability'] (Ordered):
+First Group Mean = 7.93
+Second Group Mean = 7.5
+T-test P-value = 0.488
+Wilcoxon P-value = 0.613
+#
+['pre_experiment', 'energetic'] (Ordered):
+First Group Mean = 5.4
+Second Group Mean = 5.79
+T-test P-value = 0.686
+Wilcoxon P-value = 0.692
+#
+['pre_experiment', 'spatial_test'] (Unordered):
+First Group = {'No': 12, 'Yes': 3}
+Second Group = {'No': 11, 'Yes': 3}
+Chi P-value = 1.0
+#
+['pre_experiment', 'hdm'] (Unordered):
+First Group = {'No': 6, 'Yes': 9}
+Second Group = {'No': 5, 'Yes': 9}
+Chi P-value = 1.0
+#
+['post_experiment', 'motion_sickness'] (Unordered):
+First Group = {'No': 10, 'Yes': 5}
+Second Group = {'No': 12, 'Yes': 2}
+Chi P-value = 0.4451022409569907
+######
+Scenario 1,3 VS Scenario 2,4 (No Propagation First VS Propagation First)
+#
+['pre_experiment', 'gender'] (Unordered):
+First Group = {'Female': 6, 'Male': 10}
+Second Group = {'Female': 4, 'Male': 8, 'Non-Binary': 1}
+Chi P-value = 0.5152854870961505
+#
+['pre_experiment', 'age'] (Ordered):
+First Group Mean = 24.9
+Second Group Mean = 23.7
+T-test P-value = 0.523
+Wilcoxon P-value = 0.755
+#
+['pre_experiment', 'hours_playing'] (Unordered):
+First Group = {'0 hr': 6, '0-1 hr': 4, '1-2 hr': 1, '2-5 hr': 3, '5+ hr': 2}
+Second Group = {'0 hr': 4, '0-1 hr': 1, '1-2 hr': 2, '2-5 hr': 2, '5+ hr': 4}
+Chi P-value = 0.5374441550208933
+#
+['pre_experiment', 'spatial_ability'] (Ordered):
+First Group Mean = 8.06
+Second Group Mean = 7.31
+T-test P-value = 0.225
+Wilcoxon P-value = 0.299
+#
+['pre_experiment', 'energetic'] (Ordered):
+First Group Mean = 5.31
+Second Group Mean = 5.92
+T-test P-value = 0.523
+Wilcoxon P-value = 0.58
+#
+['pre_experiment', 'spatial_test'] (Unordered):
+First Group = {'No': 12, 'Yes': 4}
+Second Group = {'No': 11, 'Yes': 2}
+Chi P-value = 0.8612212744631641
+#
+['pre_experiment', 'hdm'] (Unordered):
+First Group = {'No': 6, 'Yes': 10}
+Second Group = {'No': 5, 'Yes': 8}
+Chi P-value = 1.0
+#
+['post_experiment', 'motion_sickness'] (Unordered):
+First Group = {'No': 10, 'Yes': 6}
+Second Group = {'No': 12, 'Yes': 1}
+Chi P-value = 0.15293959672071838
+######
+Scenario 1,4 VS Scenario 2,3 (Same combination of museum and propagation)
+#
+['pre_experiment', 'gender'] (Unordered):
+First Group = {'Female': 4, 'Male': 10}
+Second Group = {'Female': 6, 'Male': 8, 'Non-Binary': 1}
+Chi P-value = 0.45166486882084833
+#
+['pre_experiment', 'age'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 23.2
+T-test P-value = 0.203
+Wilcoxon P-value = 0.578
+#
+['pre_experiment', 'hours_playing'] (Unordered):
+First Group = {'0 hr': 5, '0-1 hr': 3, '2-5 hr': 3, '5+ hr': 3}
+Second Group = {'0 hr': 5, '0-1 hr': 2, '1-2 hr': 3, '2-5 hr': 2, '5+ hr': 3}
+Chi P-value = 0.4979927019422211
+#
+['pre_experiment', 'spatial_ability'] (Ordered):
+First Group Mean = 8.14
+Second Group Mean = 7.33
+T-test P-value = 0.19
+Wilcoxon P-value = 0.073
+#
+['pre_experiment', 'energetic'] (Ordered):
+First Group Mean = 5.0
+Second Group Mean = 6.13
+T-test P-value = 0.229
+Wilcoxon P-value = 0.186
+#
+['pre_experiment', 'spatial_test'] (Unordered):
+First Group = {'No': 11, 'Yes': 3}
+Second Group = {'No': 12, 'Yes': 3}
+Chi P-value = 1.0
+#
+['pre_experiment', 'hdm'] (Unordered):
+First Group = {'No': 7, 'Yes': 7}
+Second Group = {'No': 4, 'Yes': 11}
+Chi P-value = 0.36223184941967135
+#
+['post_experiment', 'motion_sickness'] (Unordered):
+First Group = {'No': 10, 'Yes': 4}
+Second Group = {'No': 12, 'Yes': 3}
+Chi P-value = 0.916527663676018
+######
+Scenario 1
+First Group: [(1, 'first_experiment')]
+Second Group: [(1, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.25
+Second Group Mean = 3.62
+T-test P-value = 0.419
+Wilcoxon P-value = 0.403
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.75
+Second Group Mean = 3.38
+T-test P-value = 0.187
+Wilcoxon P-value = 0.224
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 74.5
+Second Group Mean = 62.8
+T-test P-value = 0.503
+Wilcoxon P-value = 0.058
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 27.2
+Second Group Mean = 24.0
+T-test P-value = 0.391
+Wilcoxon P-value = 0.392
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 13.2
+Second Group Mean = 6.25
+T-test P-value = 0.048
+Wilcoxon P-value = 0.545
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ T-test Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 8.5
+T-test P-value = 0.348
+Wilcoxon P-value = 0.287
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.0
+Second Group Mean = 15.8
+T-test P-value = 0.57
+Wilcoxon P-value = 0.704
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 8.25
+T-test P-value = 0.463
+Wilcoxon P-value = 0.062
+######
+Scenario 2
+First Group: [(2, 'first_experiment')]
+Second Group: [(2, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.14
+Second Group Mean = 4.14
+T-test P-value = 1.0
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.86
+Second Group Mean = 3.29
+T-test P-value = 0.444
+Wilcoxon P-value = 0.457
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 63.6
+Second Group Mean = 56.4
+T-test P-value = 0.491
+Wilcoxon P-value = 0.748
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 25.9
+T-test P-value = 0.953
+Wilcoxon P-value = 0.794
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 4.86
+Second Group Mean = 10.4
+T-test P-value = 0.175
+Wilcoxon P-value = 0.061
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 11.7
+Second Group Mean = 6.29
+T-test P-value = 0.021
+Wilcoxon P-value = 0.016
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Double Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 8.0
+Second Group Mean = 10.0
+T-test P-value = 0.493
+Wilcoxon P-value = 0.844
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 13.4
+Second Group Mean = 3.86
+T-test P-value = 0.056
+Wilcoxon P-value = 0.008
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######
+Scenario 3
+First Group: [(3, 'first_experiment')]
+Second Group: [(3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.62
+Second Group Mean = 4.38
+T-test P-value = 0.559
+Wilcoxon P-value = 0.902
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.0
+Second Group Mean = 3.38
+T-test P-value = 0.59
+Wilcoxon P-value = 0.413
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 61.2
+Second Group Mean = 81.5
+T-test P-value = 0.272
+Wilcoxon P-value = 0.43
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 24.0
+Second Group Mean = 24.0
+T-test P-value = 1.0
+Wilcoxon P-value = 0.453
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 12.2
+T-test P-value = 0.959
+Wilcoxon P-value = 0.49
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.5
+Second Group Mean = 11.0
+T-test P-value = 0.549
+Wilcoxon P-value = 0.521
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.8
+Second Group Mean = 11.8
+T-test P-value = 0.754
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 5.0
+Second Group Mean = 22.5
+T-test P-value = 0.258
+Wilcoxon P-value = 0.022
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######
+Scenario 4
+First Group: [(4, 'first_experiment')]
+Second Group: [(4, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.17
+Second Group Mean = 4.0
+T-test P-value = 0.687
+Wilcoxon P-value = 0.787
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.5
+Second Group Mean = 3.67
+T-test P-value = 0.765
+Wilcoxon P-value = 0.865
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 76.3
+Second Group Mean = 79.3
+T-test P-value = 0.87
+Wilcoxon P-value = 0.688
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 28.3
+Second Group Mean = 25.0
+T-test P-value = 0.481
+Wilcoxon P-value = 0.681
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 8.33
+Second Group Mean = 7.33
+T-test P-value = 0.652
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 6.0
+Second Group Mean = 9.67
+T-test P-value = 0.12
+Wilcoxon P-value = 0.117
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 16.0
+Second Group Mean = 16.0
+T-test P-value = 1.0
+Wilcoxon P-value = 0.936
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 17.7
+Second Group Mean = 21.3
+T-test P-value = 0.755
+Wilcoxon P-value = 0.226
+######
+Musem 1 - No Propagation - First VS Musem 1 - No Propagation - Second
+First Group: [(1, 'first_experiment')]
+Second Group: [(4, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.25
+Second Group Mean = 4.0
+T-test P-value = 0.063
+Wilcoxon P-value = 0.095
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.75
+Second Group Mean = 3.67
+T-test P-value = 0.099
+Wilcoxon P-value = 0.152
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 74.5
+Second Group Mean = 79.3
+T-test P-value = 0.653
+Wilcoxon P-value = 0.897
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 27.2
+Second Group Mean = 25.0
+T-test P-value = 0.616
+Wilcoxon P-value = 0.554
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 13.2
+Second Group Mean = 7.33
+T-test P-value = 0.126
+Wilcoxon P-value = 0.26
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 9.67
+T-test P-value = 0.546
+Wilcoxon P-value = 0.948
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.0
+Second Group Mean = 16.0
+T-test P-value = 0.242
+Wilcoxon P-value = 0.213
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 21.3
+T-test P-value = 0.197
+Wilcoxon P-value = 0.298
+######
+Musem 2 - No Propagation - First VS Musem 2 - No Propagation - Second
+First Group: [(3, 'first_experiment')]
+Second Group: [(2, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.62
+Second Group Mean = 4.14
+T-test P-value = 0.063
+Wilcoxon P-value = 0.077
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.0
+Second Group Mean = 3.29
+T-test P-value = 0.596
+Wilcoxon P-value = 0.621
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 61.2
+Second Group Mean = 56.4
+T-test P-value = 0.557
+Wilcoxon P-value = 0.45
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 24.0
+Second Group Mean = 25.9
+T-test P-value = 0.688
+Wilcoxon P-value = 0.764
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 10.4
+T-test P-value = 0.722
+Wilcoxon P-value = 0.451
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.5
+Second Group Mean = 6.29
+T-test P-value = 0.153
+Wilcoxon P-value = 0.34
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.8
+Second Group Mean = 10.0
+T-test P-value = 0.802
+Wilcoxon P-value = 0.443
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 5.0
+Second Group Mean = 3.86
+T-test P-value = 0.408
+Wilcoxon P-value = 0.241
+######
+Musem 1 - Propagation - First VS Musem 1 - Propagation - Second
+First Group: [(2, 'first_experiment')]
+Second Group: [(3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.14
+Second Group Mean = 4.38
+T-test P-value = 0.593
+Wilcoxon P-value = 0.192
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.86
+Second Group Mean = 3.38
+T-test P-value = 0.481
+Wilcoxon P-value = 0.339
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 63.6
+Second Group Mean = 81.5
+T-test P-value = 0.377
+Wilcoxon P-value = 0.417
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 24.0
+T-test P-value = 0.61
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 4.86
+Second Group Mean = 12.2
+T-test P-value = 0.131
+Wilcoxon P-value = 0.296
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 11.7
+Second Group Mean = 11.0
+T-test P-value = 0.775
+Wilcoxon P-value = 0.813
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 8.0
+Second Group Mean = 11.8
+T-test P-value = 0.248
+Wilcoxon P-value = 0.639
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 13.4
+Second Group Mean = 22.5
+T-test P-value = 0.591
+Wilcoxon P-value = 0.677
+######
+Musem 2 - Propagation - First VS Musem 2 - Propagation - Second
+First Group: [(4, 'first_experiment')]
+Second Group: [(1, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.17
+Second Group Mean = 3.62
+T-test P-value = 0.309
+Wilcoxon P-value = 0.472
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.5
+Second Group Mean = 3.38
+T-test P-value = 0.798
+Wilcoxon P-value = 0.89
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 76.3
+Second Group Mean = 62.8
+T-test P-value = 0.562
+Wilcoxon P-value = 0.271
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 28.3
+Second Group Mean = 24.0
+T-test P-value = 0.275
+Wilcoxon P-value = 0.426
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 8.33
+Second Group Mean = 6.25
+T-test P-value = 0.35
+Wilcoxon P-value = 0.083
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 6.0
+Second Group Mean = 8.5
+T-test P-value = 0.362
+Wilcoxon P-value = 0.497
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 16.0
+Second Group Mean = 15.8
+T-test P-value = 0.984
+Wilcoxon P-value = 0.32
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 17.7
+Second Group Mean = 8.25
+T-test P-value = 0.32
+Wilcoxon P-value = 0.519
+######
+Musem 1 - First VS Musem 2 - Second
+First Group: [(1, 'first_experiment'), (2, 'first_experiment')]
+Second Group: [(1, 'second_experiment'), (2, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.67
+Second Group Mean = 3.87
+T-test P-value = 0.489
+Wilcoxon P-value = 0.277
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.8
+Second Group Mean = 3.33
+T-test P-value = 0.124
+Wilcoxon P-value = 0.139
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 69.4
+Second Group Mean = 59.8
+T-test P-value = 0.347
+Wilcoxon P-value = 0.064
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 26.5
+Second Group Mean = 24.9
+T-test P-value = 0.581
+Wilcoxon P-value = 0.46
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 9.33
+Second Group Mean = 8.2
+T-test P-value = 0.679
+Wilcoxon P-value = 0.341
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 11.9
+Second Group Mean = 7.47
+T-test P-value = 0.045
+Wilcoxon P-value = 0.021
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Double Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 9.07
+Second Group Mean = 13.1
+T-test P-value = 0.458
+Wilcoxon P-value = 0.797
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 12.7
+Second Group Mean = 6.2
+T-test P-value = 0.062
+Wilcoxon P-value = 0.001
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######
+Musem 2 - First VS Musem 1 - Second
+First Group: [(3, 'first_experiment'), (4, 'first_experiment')]
+Second Group: [(3, 'second_experiment'), (4, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.43
+Second Group Mean = 4.21
+T-test P-value = 0.473
+Wilcoxon P-value = 0.82
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.21
+Second Group Mean = 3.5
+T-test P-value = 0.525
+Wilcoxon P-value = 0.362
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 67.7
+Second Group Mean = 80.6
+T-test P-value = 0.308
+Wilcoxon P-value = 0.222
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.9
+Second Group Mean = 24.4
+T-test P-value = 0.578
+Wilcoxon P-value = 0.981
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 10.4
+Second Group Mean = 10.1
+T-test P-value = 0.923
+Wilcoxon P-value = 0.297
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 8.0
+Second Group Mean = 10.4
+T-test P-value = 0.163
+Wilcoxon P-value = 0.148
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 13.0
+Second Group Mean = 13.6
+T-test P-value = 0.868
+Wilcoxon P-value = 0.908
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 10.4
+Second Group Mean = 22.0
+T-test P-value = 0.24
+Wilcoxon P-value = 0.005
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######
+No Propagation - First VS Propagation - Second
+First Group: [(1, 'first_experiment'), (3, 'first_experiment')]
+Second Group: [(1, 'second_experiment'), (3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.94
+Second Group Mean = 4.0
+T-test P-value = 0.863
+Wilcoxon P-value = 0.649
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.88
+Second Group Mean = 3.38
+T-test P-value = 0.216
+Wilcoxon P-value = 0.16
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 67.9
+Second Group Mean = 72.1
+T-test P-value = 0.731
+Wilcoxon P-value = 0.258
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 24.0
+T-test P-value = 0.487
+Wilcoxon P-value = 0.908
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 12.6
+Second Group Mean = 9.25
+T-test P-value = 0.255
+Wilcoxon P-value = 0.211
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 10.8
+Second Group Mean = 9.75
+T-test P-value = 0.645
+Wilcoxon P-value = 0.924
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.4
+Second Group Mean = 13.8
+T-test P-value = 0.507
+Wilcoxon P-value = 0.633
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 8.5
+Second Group Mean = 15.4
+T-test P-value = 0.387
+Wilcoxon P-value = 0.924
+######
+No Propagation - First VS No Propagation - Second
+First Group: [(1, 'first_experiment'), (3, 'first_experiment')]
+Second Group: [(2, 'second_experiment'), (4, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.94
+Second Group Mean = 4.08
+T-test P-value = 0.63
+Wilcoxon P-value = 0.638
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.88
+Second Group Mean = 3.46
+T-test P-value = 0.114
+Wilcoxon P-value = 0.143
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 67.9
+Second Group Mean = 67.0
+T-test P-value = 0.904
+Wilcoxon P-value = 0.826
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 25.5
+T-test P-value = 0.958
+Wilcoxon P-value = 0.857
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 12.6
+Second Group Mean = 9.0
+T-test P-value = 0.201
+Wilcoxon P-value = 0.23
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 10.8
+Second Group Mean = 7.85
+T-test P-value = 0.179
+Wilcoxon P-value = 0.314
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.4
+Second Group Mean = 12.8
+T-test P-value = 0.399
+Wilcoxon P-value = 0.689
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 8.5
+Second Group Mean = 11.9
+T-test P-value = 0.407
+Wilcoxon P-value = 0.893
+######
+Propagation - First VS No Propagation - Second
+First Group: [(2, 'first_experiment'), (4, 'first_experiment')]
+Second Group: [(2, 'second_experiment'), (4, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.15
+Second Group Mean = 4.08
+T-test P-value = 0.712
+Wilcoxon P-value = 0.792
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.15
+Second Group Mean = 3.46
+T-test P-value = 0.43
+Wilcoxon P-value = 0.482
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 69.5
+Second Group Mean = 67.0
+T-test P-value = 0.81
+Wilcoxon P-value = 0.817
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 26.8
+Second Group Mean = 25.5
+T-test P-value = 0.669
+Wilcoxon P-value = 0.581
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 6.46
+Second Group Mean = 9.0
+T-test P-value = 0.284
+Wilcoxon P-value = 0.283
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.08
+Second Group Mean = 7.85
+T-test P-value = 0.479
+Wilcoxon P-value = 0.754
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 11.7
+Second Group Mean = 12.8
+T-test P-value = 0.77
+Wilcoxon P-value = 0.735
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 15.4
+Second Group Mean = 11.9
+T-test P-value = 0.577
+Wilcoxon P-value = 0.496
+######
+Propagation - First VS Propagation - Second
+First Group: [(2, 'first_experiment'), (4, 'first_experiment')]
+Second Group: [(1, 'second_experiment'), (3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.15
+Second Group Mean = 4.0
+T-test P-value = 0.649
+Wilcoxon P-value = 0.732
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.15
+Second Group Mean = 3.38
+T-test P-value = 0.609
+Wilcoxon P-value = 0.449
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 69.5
+Second Group Mean = 72.1
+T-test P-value = 0.858
+Wilcoxon P-value = 0.709
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 26.8
+Second Group Mean = 24.0
+T-test P-value = 0.233
+Wilcoxon P-value = 0.49
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 6.46
+Second Group Mean = 9.25
+T-test P-value = 0.307
+Wilcoxon P-value = 0.786
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.08
+Second Group Mean = 9.75
+T-test P-value = 0.728
+Wilcoxon P-value = 0.824
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 11.7
+Second Group Mean = 13.8
+T-test P-value = 0.728
+Wilcoxon P-value = 0.593
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 15.4
+Second Group Mean = 15.4
+T-test P-value = 0.999
+Wilcoxon P-value = 0.49
+######
+No Propagation VS Propagation
+First Group: [(1, 'first_experiment'), (2, 'second_experiment'), (3, 'first_experiment'), (4, 'second_experiment')]
+Second Group: [(1, 'second_experiment'), (2, 'first_experiment'), (3, 'second_experiment'), (4, 'first_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.0
+Second Group Mean = 4.07
+T-test P-value = 0.751
+Wilcoxon P-value = 0.499
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.14
+Second Group Mean = 3.28
+T-test P-value = 0.623
+Wilcoxon P-value = 0.49
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 67.5
+Second Group Mean = 70.9
+T-test P-value = 0.668
+Wilcoxon P-value = 0.388
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.6
+Second Group Mean = 25.3
+T-test P-value = 0.885
+Wilcoxon P-value = 0.71
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 11.0
+Second Group Mean = 8.0
+T-test P-value = 0.125
+Wilcoxon P-value = 0.072
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.45
+Second Group Mean = 9.45
+T-test P-value = 1.0
+Wilcoxon P-value = 0.856
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 11.4
+Second Group Mean = 12.8
+T-test P-value = 0.666
+Wilcoxon P-value = 0.518
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 10.0
+Second Group Mean = 15.4
+T-test P-value = 0.294
+Wilcoxon P-value = 0.652
+######
+Museum 1 VS Museum 2
+First Group: [(1, 'first_experiment'), (2, 'first_experiment'), (3, 'second_experiment'), (4, 'second_experiment')]
+Second Group: [(1, 'second_experiment'), (2, 'second_experiment'), (3, 'first_experiment'), (4, 'first_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.93
+Second Group Mean = 4.14
+T-test P-value = 0.339
+Wilcoxon P-value = 0.272
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.14
+Second Group Mean = 3.28
+T-test P-value = 0.623
+Wilcoxon P-value = 0.609
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 74.8
+Second Group Mean = 63.6
+T-test P-value = 0.162
+Wilcoxon P-value = 0.021
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.5
+Second Group Mean = 25.3
+T-test P-value = 0.942
+Wilcoxon P-value = 0.59
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 9.72
+Second Group Mean = 9.28
+T-test P-value = 0.821
+Wilcoxon P-value = 0.199
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 11.2
+Second Group Mean = 7.72
+T-test P-value = 0.013
+Wilcoxon P-value = 0.007
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Double Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 11.2
+Second Group Mean = 13.0
+T-test P-value = 0.575
+Wilcoxon P-value = 0.937
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 17.2
+Second Group Mean = 8.24
+T-test P-value = 0.077
+Wilcoxon P-value = 0.0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Wilcoxon Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######
+Propagation vs No Propagation in Museum 1
+First Group: [(1, 'first_experiment'), (4, 'second_experiment')]
+Second Group: [(2, 'first_experiment'), (3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.57
+Second Group Mean = 4.27
+T-test P-value = 0.023
+Wilcoxon P-value = 0.015
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Double Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.14
+Second Group Mean = 3.13
+T-test P-value = 0.983
+Wilcoxon P-value = 0.804
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 76.6
+Second Group Mean = 73.1
+T-test P-value = 0.761
+Wilcoxon P-value = 0.221
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 26.3
+Second Group Mean = 24.7
+T-test P-value = 0.545
+Wilcoxon P-value = 0.947
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 10.7
+Second Group Mean = 8.8
+T-test P-value = 0.542
+Wilcoxon P-value = 0.186
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 11.0
+Second Group Mean = 11.3
+T-test P-value = 0.877
+Wilcoxon P-value = 0.522
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 12.6
+Second Group Mean = 10.0
+T-test P-value = 0.379
+Wilcoxon P-value = 0.643
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 16.0
+Second Group Mean = 18.3
+T-test P-value = 0.802
+Wilcoxon P-value = 0.342
+######
+Propagation vs No Propagation in Museum 2
+First Group: [(1, 'second_experiment'), (4, 'first_experiment')]
+Second Group: [(2, 'second_experiment'), (3, 'first_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.86
+Second Group Mean = 4.4
+T-test P-value = 0.063
+Wilcoxon P-value = 0.106
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.43
+Second Group Mean = 3.13
+T-test P-value = 0.399
+Wilcoxon P-value = 0.529
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 68.6
+Second Group Mean = 59.0
+T-test P-value = 0.406
+Wilcoxon P-value = 0.584
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.9
+Second Group Mean = 24.9
+T-test P-value = 0.736
+Wilcoxon P-value = 0.637
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 7.14
+Second Group Mean = 11.3
+T-test P-value = 0.097
+Wilcoxon P-value = 0.261
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 7.43
+Second Group Mean = 8.0
+T-test P-value = 0.739
+Wilcoxon P-value = 0.513
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 15.9
+Second Group Mean = 10.4
+T-test P-value = 0.345
+Wilcoxon P-value = 0.722
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 12.3
+Second Group Mean = 4.47
+T-test P-value = 0.087
+Wilcoxon P-value = 0.452
+######
+Propagation vs No Propagation in Museum 1 First
+First Group: [(1, 'first_experiment')]
+Second Group: [(2, 'first_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.25
+Second Group Mean = 4.14
+T-test P-value = 0.001
+Wilcoxon P-value = 0.005
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ Double Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 2.75
+Second Group Mean = 2.86
+T-test P-value = 0.82
+Wilcoxon P-value = 0.711
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 74.5
+Second Group Mean = 63.6
+T-test P-value = 0.283
+Wilcoxon P-value = 0.417
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 27.2
+Second Group Mean = 25.6
+T-test P-value = 0.689
+Wilcoxon P-value = 0.725
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 13.2
+Second Group Mean = 4.86
+T-test P-value = 0.023
+Wilcoxon P-value = 0.079
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ^ T-test Significant ^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 11.7
+T-test P-value = 0.939
+Wilcoxon P-value = 0.637
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 10.0
+Second Group Mean = 8.0
+T-test P-value = 0.522
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 12.0
+Second Group Mean = 13.4
+T-test P-value = 0.782
+Wilcoxon P-value = 1.0
+######
+Propagation vs No Propagation in Museum 1 Second
+First Group: [(4, 'second_experiment')]
+Second Group: [(3, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.0
+Second Group Mean = 4.38
+T-test P-value = 0.498
+Wilcoxon P-value = 0.364
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.67
+Second Group Mean = 3.38
+T-test P-value = 0.716
+Wilcoxon P-value = 0.894
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 79.3
+Second Group Mean = 81.5
+T-test P-value = 0.92
+Wilcoxon P-value = 0.518
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 25.0
+Second Group Mean = 24.0
+T-test P-value = 0.756
+Wilcoxon P-value = 0.742
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 7.33
+Second Group Mean = 12.2
+T-test P-value = 0.348
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 9.67
+Second Group Mean = 11.0
+T-test P-value = 0.581
+Wilcoxon P-value = 0.696
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 16.0
+Second Group Mean = 11.8
+T-test P-value = 0.405
+Wilcoxon P-value = 0.435
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 21.3
+Second Group Mean = 22.5
+T-test P-value = 0.95
+Wilcoxon P-value = 0.208
+######
+Propagation vs No Propagation in Museum 2 First
+First Group: [(4, 'first_experiment')]
+Second Group: [(3, 'first_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 4.17
+Second Group Mean = 4.62
+T-test P-value = 0.099
+Wilcoxon P-value = 0.115
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.5
+Second Group Mean = 3.0
+T-test P-value = 0.319
+Wilcoxon P-value = 0.44
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 76.3
+Second Group Mean = 61.2
+T-test P-value = 0.315
+Wilcoxon P-value = 0.846
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 28.3
+Second Group Mean = 24.0
+T-test P-value = 0.312
+Wilcoxon P-value = 0.382
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 8.33
+Second Group Mean = 12.0
+T-test P-value = 0.261
+Wilcoxon P-value = 0.467
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 6.0
+Second Group Mean = 9.5
+T-test P-value = 0.178
+Wilcoxon P-value = 0.281
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 16.0
+Second Group Mean = 10.8
+T-test P-value = 0.298
+Wilcoxon P-value = 0.604
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 17.7
+Second Group Mean = 5.0
+T-test P-value = 0.128
+Wilcoxon P-value = 0.729
+######
+Propagation vs No Propagation in Museum 2 Second
+First Group: [(1, 'second_experiment')]
+Second Group: [(2, 'second_experiment')]
+#
+['?_experiment', 'immersion'] (Ordered):
+First Group Mean = 3.62
+Second Group Mean = 4.14
+T-test P-value = 0.291
+Wilcoxon P-value = 0.47
+#
+['?_experiment', 'realistic'] (Ordered):
+First Group Mean = 3.38
+Second Group Mean = 3.29
+T-test P-value = 0.867
+Wilcoxon P-value = 0.951
+#
+['?_experiment', 'total_room_visits'] (Ordered):
+First Group Mean = 62.8
+Second Group Mean = 56.4
+T-test P-value = 0.733
+Wilcoxon P-value = 0.561
+#
+['?_experiment', 'guided_tour', 'total_room_visits'] (Ordered):
+First Group Mean = 24.0
+Second Group Mean = 25.9
+T-test P-value = 0.671
+Wilcoxon P-value = 1.0
+#
+['?_experiment', 'task_1', 'total_room_visits'] (Ordered):
+First Group Mean = 6.25
+Second Group Mean = 10.4
+T-test P-value = 0.292
+Wilcoxon P-value = 0.408
+#
+['?_experiment', 'task_2', 'total_room_visits'] (Ordered):
+First Group Mean = 8.5
+Second Group Mean = 6.29
+T-test P-value = 0.354
+Wilcoxon P-value = 0.858
+#
+['?_experiment', 'task_3', 'total_room_visits'] (Ordered):
+First Group Mean = 15.8
+Second Group Mean = 10.0
+T-test P-value = 0.593
+Wilcoxon P-value = 0.58
+#
+['?_experiment', 'task_4', 'total_room_visits'] (Ordered):
+First Group Mean = 8.25
+Second Group Mean = 3.86
+T-test P-value = 0.352
+Wilcoxon P-value = 0.372
